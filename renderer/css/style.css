@@ -41,3 +41,57 @@
     font-size: 24px;
     background-color: gold;
 }
+
+.quest-title-container {
+    width: 100vw;
+    height: 20vh;
+    background-color: #5B301C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quest-title {
+    font-size: 3rem;
+    color: #F9FFA3;
+}
+
+.quest-list-container {
+    width: 100vw;
+    height: 60vh;
+    list-style-type: none;
+    background-color: #D1D1D1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+
+.quest-container {
+    width: 90vw;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 1rem;
+}
+
+.quest-manage-container {
+    width: 100vw;
+    height: 20vh;
+    background-color: #5B301C;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+}
+
+.quest-manage-button {
+    width: 70px;
+    height: 70px;
+    font-size: 12px;
+}
