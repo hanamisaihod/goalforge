@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family: 'kq';
+    src: url('renderer\css\fonts\KnightsQuestCallig.ttf');
+} */
+
+.main-title-container {
+    width: 100vw;
+    height: 25vh;
+    background-color: #5B301C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 3rem;
+    color: #F9FFA3;
+}
+
+.main-options {
+    width: 100vw;
+    height: 75vh;
+    list-style-type: none;
+    background-color: #D1D1D1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+
+.main-button {
+    width: 40vw;
+    height: 10vw;
+    font-size: 24px;
+    background-color: gold;
+}

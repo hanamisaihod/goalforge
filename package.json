@@ -1,0 +1,15 @@
+{
+  "name": "fantasy-task",
+  "productName": "Goal Forge",
+  "version": "1.0.0",
+  "description": "Greetings, brave traveler! Art thou prepared for thy noble quests?",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "northisdead",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^29.1.5"
+  }
+}
